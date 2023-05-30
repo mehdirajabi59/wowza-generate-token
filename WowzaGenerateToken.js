@@ -205,7 +205,7 @@ class WowzaGenerateToken {
         }
 
         path += `?${query}`;
-        console.log(path)
+
         const hash = crypto.createHash(this.algorithms[this.hashMethod]);
         hash.update(path);
         const hashedPath = hash.digest('binary');

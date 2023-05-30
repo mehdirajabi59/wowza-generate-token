@@ -1,6 +1,6 @@
 {
   "name": "wowza-generate-token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript library to create secure token for Wowza server",
   "main": "WowzaGenerateToken.js",
   "scripts": {
