@@ -249,4 +249,4 @@ class WowzaGenerateToken {
     }
 }
 
-module.exports.WowzaSecureToken = WowzaGenerateToken
+module.exports.WowzaGenerateToken = WowzaGenerateToken
