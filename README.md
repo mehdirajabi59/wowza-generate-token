@@ -9,7 +9,8 @@ Javascript library to create secure token for Wowza server
 
 **Example** :
 
-```const { WowzaGenerateToken } = require('wowza-generate-token')
+```
+const { WowzaGenerateToken } = require('wowza-generate-token')
 
 const token = new WowzaGenerateToken('prefix', '123wqed');
 token.setClientIP('192.168.1.1');
