@@ -6,9 +6,9 @@ Javascript library to create secure token for Wowza server
 
 Usage :
 
-`const { WowzaGenerateToken } = require('wowza-generate-token')`
+```const { WowzaGenerateToken } = require('wowza-generate-token')`
 
-`const token = new WowzaGenerateToken('prefix', '123wqed');`
+const token = new WowzaGenerateToken('prefix', '123wqed');
 token.setClientIP('192.168.1.1');
 token.setURL('https://r1.test.com:443/vod_test/_definst_/mehdi/kiasalar/2/smil:hd_test.smil/playlist.m3u8');
 
@@ -21,4 +21,4 @@ token.setExtraParams({ endtime: endTime, starttime: startTime, CustomParam1 : 'C
 
 const secureToken = token.getHash();
 const securedURL = token.getFullURL();
-console.log(securedURL)`
+console.log(securedURL)```
