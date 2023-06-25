@@ -194,6 +194,10 @@ class WowzaGenerateToken {
             if (/m3u8/.test(pathItem)) {
                 break;
             }
+            if (/redirect/.test(pathItem) && i === 0) {
+                continue
+            }
+
             path += pathItem;
             if (i !== pathItems.length - 1) {
                 path += '/';
